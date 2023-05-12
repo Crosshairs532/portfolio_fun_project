@@ -3,27 +3,46 @@ body {
     margin: 0;
     /* background-color: black; */
     /* opacity: 3; */
+    border: 2px solid black;
+
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
+}
+
+p {
+    font-size: 15px;
 }
 
 .name {
-    color: grey;
+    color: rgb(141, 138, 138);
 }
 
 section {
     display: flex;
+    margin-bottom: 10px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* border: 2px solid red; */
 }
 
 .half {
     /* border: 2px solid black; */
     width: 50%;
-    padding: 20px;
+    padding: 50px;
+    margin: 10px;
 }
 
 .half img {
+    padding-top: 20%;
+    width: 100%;
+    /* background-image: url(design2.png); */
+
+}
+
+.middle .half img {
+    padding-top: 5%;
     width: 100%;
 }
 
@@ -35,11 +54,21 @@ section {
     font-weight: 700;
     color: rgb(247, 247, 247);
     border-radius: 5px;
+    border: 2px solid black;
 
+    /* margin-top: 90px; */
 }
 
 .top {
     background-image: url(back.png);
     background-size: 80%;
     background-repeat: no-repeat;
+    /* background-color: rgb(65, 64, 64); */
+    /* background-image: url(design2.png); */
+
+}
+
+.middle {
+    background-image: url(design1.png);
+    opacity: 2;
 }
