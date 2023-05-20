@@ -3,7 +3,7 @@ body {
     margin: 0;
     /* background-color: black; */
     /* opacity: 3; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
 
@@ -19,7 +19,7 @@ p {
     color: rgb(141, 138, 138);
 }
 
-section {
+.con {
     display: flex;
     margin-bottom: 10px;
     /* margin: 10px; */
@@ -30,8 +30,8 @@ section {
 .half {
     /* border: 2px solid black; */
     width: 50%;
-    padding: 50px;
-    margin: 10px;
+    padding: 40px;
+    /* margin: 0px; */
 }
 
 .half img {
@@ -70,5 +70,46 @@ section {
 
 .middle {
     background-image: url(design1.png);
-    opacity: 2;
+    /* opacity: ; */
+
+}
+
+.d {
+    display: flex;
+}
+
+.exp {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 40px black;
+    padding-left: 20px;
+}
+
+#exp2 {
+    border-radius: 8px;
+    border-left: 4px solid;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
+}
+
+#exp1 {
+    border-radius: 8px;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(191, 89, 5), purple);
+    border-image-slice: 1;
+}
+
+.bottom {
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
+    padding-top: 0px;
+
+}
+
+#standing_boy {
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px black;
 }
